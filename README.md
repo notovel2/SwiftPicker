@@ -5,11 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftPicker.svg?style=flat)](https://cocoapods.org/pods/SwiftPicker)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftPicker.svg?style=flat)](https://cocoapods.org/pods/SwiftPicker)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
+Swift 5.1+
 
 ## Installation
 
@@ -18,6 +15,38 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'SwiftPicker'
+```
+
+## Usage
+
+Picker for a text
+```swift
+import SwiftPicker
+class ViewController: UIViewController {
+    @IBOutlet weak var pickerContainer: UIView!
+    private var pickerView: SwiftTextPicker?
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        pickerView = SwiftTextPicker(in: pickerContainer, parentViewController: self, pickerSections: [], id: "1")
+        pickerView?.delegate = self
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+}
+
+extension ViewController: SwiftPickerDelegate {
+    func onDone(name: String?, results: [PickerResult]) {
+        // code when press Done Button
+    }
+    
+    func onChange(name: String?, result: PickerResult) {
+        //code when select item in picker
+    }
+}
 ```
 
 ## Author
