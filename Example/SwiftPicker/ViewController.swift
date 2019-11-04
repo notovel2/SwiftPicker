@@ -9,10 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var pickerContainer: UIView!
+    private var pickerView: SwiftTextPicker?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        pickerView = SwiftTextPicker(in: pickerContainer, parentViewController: self, pickerSections: [], id: "Hello")
+        pickerView?.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,3 +24,14 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: SwiftPickerDelegate {
+    func onDone(name: String?, results: [PickerResult]) {
+        print("Done")
+    }
+    
+    func onChange(name: String?, result: PickerResult) {
+        print("Change")
+    }
+    
+    
+}

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17AEBBD5236FDBF0001979A3 /* PickerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBD4236FDBF0001979A3 /* PickerResult.swift */; };
+		17AEBBD6236FDBF0001979A3 /* PickerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBD4236FDBF0001979A3 /* PickerResult.swift */; };
+		17AEBBD8236FDC08001979A3 /* PickerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBD7236FDC08001979A3 /* PickerSection.swift */; };
+		17AEBBD9236FDC08001979A3 /* PickerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBD7236FDC08001979A3 /* PickerSection.swift */; };
+		17AEBBDB236FDC22001979A3 /* SwiftTextPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBDA236FDC22001979A3 /* SwiftTextPicker.swift */; };
+		17AEBBDC236FDC22001979A3 /* SwiftTextPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBDA236FDC22001979A3 /* SwiftTextPicker.swift */; };
+		17AEBBDE236FDC43001979A3 /* SwiftPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBDD236FDC43001979A3 /* SwiftPickerDelegate.swift */; };
+		17AEBBDF236FDC43001979A3 /* SwiftPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBDD236FDC43001979A3 /* SwiftPickerDelegate.swift */; };
 		1D6754B64E6BB39A84845E05 /* Pods_SwiftPicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48688C7601F85F71C379F877 /* Pods_SwiftPicker_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,8 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17AEBBD4236FDBF0001979A3 /* PickerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerResult.swift; sourceTree = "<group>"; };
+		17AEBBD7236FDC08001979A3 /* PickerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSection.swift; sourceTree = "<group>"; };
+		17AEBBDA236FDC22001979A3 /* SwiftTextPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTextPicker.swift; sourceTree = "<group>"; };
+		17AEBBDD236FDC43001979A3 /* SwiftPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPickerDelegate.swift; sourceTree = "<group>"; };
 		2360F7B421E60FD5CA9E7A7D /* Pods-SwiftPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftPicker_Tests/Pods-SwiftPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		42FC12544C9422204951303F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		42FC12544C9422204951303F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		48688C7601F85F71C379F877 /* Pods_SwiftPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SwiftPicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,9 +54,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7E27F239B97D29BE9D4CC544 /* Pods-SwiftPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPicker_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftPicker_Example/Pods-SwiftPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		94024A4D39CC4F6F4F6A84F2 /* SwiftPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftPicker.podspec; path = ../SwiftPicker.podspec; sourceTree = "<group>"; };
+		94024A4D39CC4F6F4F6A84F2 /* SwiftPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftPicker.podspec; path = ../SwiftPicker.podspec; sourceTree = "<group>"; };
 		9F2B2F873794BC5999A3609F /* Pods-SwiftPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPicker_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPicker_Example/Pods-SwiftPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A729E5047BA01D6839E6C02E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A729E5047BA01D6839E6C02E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B2937B7C8D23415F6241EF6A /* Pods-SwiftPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPicker_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPicker_Tests/Pods-SwiftPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB3EB7F0AB4A48CC8A7A60B9 /* Pods_SwiftPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,9 +81,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17AEBBD2236FDB29001979A3 /* SwiftTextPicker */ = {
+			isa = PBXGroup;
+			children = (
+				17AEBBDA236FDC22001979A3 /* SwiftTextPicker.swift */,
+			);
+			path = SwiftTextPicker;
+			sourceTree = "<group>";
+		};
+		17AEBBD3236FDBB0001979A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17AEBBD4236FDBF0001979A3 /* PickerResult.swift */,
+				17AEBBD7236FDC08001979A3 /* PickerSection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				17AEBBDD236FDC43001979A3 /* SwiftPickerDelegate.swift */,
+				17AEBBD3236FDBB0001979A3 /* Models */,
+				17AEBBD2236FDB29001979A3 /* SwiftTextPicker */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SwiftPicker */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -156,7 +188,6 @@
 				B2937B7C8D23415F6241EF6A /* Pods-SwiftPicker_Tests.debug.xcconfig */,
 				2360F7B421E60FD5CA9E7A7D /* Pods-SwiftPicker_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,8 +363,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AEBBDE236FDC43001979A3 /* SwiftPickerDelegate.swift in Sources */,
+				17AEBBDB236FDC22001979A3 /* SwiftTextPicker.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				17AEBBD8236FDC08001979A3 /* PickerSection.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				17AEBBD5236FDBF0001979A3 /* PickerResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +376,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AEBBDC236FDC22001979A3 /* SwiftTextPicker.swift in Sources */,
+				17AEBBD6236FDBF0001979A3 /* PickerResult.swift in Sources */,
+				17AEBBDF236FDC43001979A3 /* SwiftPickerDelegate.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				17AEBBD9236FDC08001979A3 /* PickerSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

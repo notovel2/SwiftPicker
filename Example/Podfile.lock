@@ -1,0 +1,16 @@
+PODS:
+  - SwiftPicker (0.1.0)
+
+DEPENDENCIES:
+  - SwiftPicker (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftPicker: c39c411fd827f05f3c275d053bceeeae7f0a90cb
+
+PODFILE CHECKSUM: 596dcdb4a7ad821348bf97fb291a02dfe62b3189
+
+COCOAPODS: 1.8.4

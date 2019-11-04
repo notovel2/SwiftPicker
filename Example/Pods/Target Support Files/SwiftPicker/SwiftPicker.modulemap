@@ -1,0 +1,6 @@
+framework module SwiftPicker {
+  umbrella header "SwiftPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

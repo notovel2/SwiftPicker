@@ -1,0 +1,22 @@
+{
+  "name": "SwiftPicker",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/notovel2/SwiftPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "notovel2": "notovel2@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/notovel2/SwiftPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftPicker/Classes/**/*"
+}
