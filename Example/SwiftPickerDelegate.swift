@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol SwiftPickerDelegate {
+public protocol SwiftPickerDelegate {
     func onDone(name: String?, results: [PickerResult])
     func onChange(name: String?, result: PickerResult)
 }

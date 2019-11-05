@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct PickerResult {
+public struct PickerResult {
     var component: Int
     var title: String
     var row: Int

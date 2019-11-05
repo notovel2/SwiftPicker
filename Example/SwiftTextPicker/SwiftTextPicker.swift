@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SwiftTextPicker: UIButton, UIPickerViewDelegate {
+open class SwiftTextPicker: UIButton, UIPickerViewDelegate {
     private var view: UIView?
     private var pickerView: UIPickerView?
     private var pickerTextField: UITextField?
@@ -34,7 +34,7 @@ class SwiftTextPicker: UIButton, UIPickerViewDelegate {
     var delegate: SwiftPickerDelegate?
     
     //MARK: - Actions
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override open func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         pickerTextField?.becomeFirstResponder()
     }
     
@@ -61,7 +61,7 @@ class SwiftTextPicker: UIButton, UIPickerViewDelegate {
         initComponents()
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         super.init(coder: coder)
         initComponents()
     }
@@ -163,11 +163,11 @@ class SwiftTextPicker: UIButton, UIPickerViewDelegate {
 
 //MARK: - UIPickerViewDataSource
 extension SwiftTextPicker: UIPickerViewDataSource {
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+    public func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return pickerSections.count
     }
     
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return (component < pickerSections.count) ? pickerSections[component].titlelist.count : 0
     }
     

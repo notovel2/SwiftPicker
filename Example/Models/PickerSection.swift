@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct PickerSection {
+public struct PickerSection {
     var titlelist: [String]
     var selectedRow: Int = 0
 }
