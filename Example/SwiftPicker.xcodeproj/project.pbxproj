@@ -7,14 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17AEBBD5236FDBF0001979A3 /* PickerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBD4236FDBF0001979A3 /* PickerResult.swift */; };
-		17AEBBD6236FDBF0001979A3 /* PickerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBD4236FDBF0001979A3 /* PickerResult.swift */; };
-		17AEBBD8236FDC08001979A3 /* PickerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBD7236FDC08001979A3 /* PickerSection.swift */; };
-		17AEBBD9236FDC08001979A3 /* PickerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBD7236FDC08001979A3 /* PickerSection.swift */; };
-		17AEBBDB236FDC22001979A3 /* SwiftTextPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBDA236FDC22001979A3 /* SwiftTextPicker.swift */; };
-		17AEBBDC236FDC22001979A3 /* SwiftTextPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBDA236FDC22001979A3 /* SwiftTextPicker.swift */; };
-		17AEBBDE236FDC43001979A3 /* SwiftPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBDD236FDC43001979A3 /* SwiftPickerDelegate.swift */; };
-		17AEBBDF236FDC43001979A3 /* SwiftPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEBBDD236FDC43001979A3 /* SwiftPickerDelegate.swift */; };
+		172B13E823714EA000456D01 /* SwiftPicker in Resources */ = {isa = PBXBuildFile; fileRef = 172B13E723714EA000456D01 /* SwiftPicker */; };
 		1D6754B64E6BB39A84845E05 /* Pods_SwiftPicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48688C7601F85F71C379F877 /* Pods_SwiftPicker_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -36,10 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17AEBBD4236FDBF0001979A3 /* PickerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerResult.swift; sourceTree = "<group>"; };
-		17AEBBD7236FDC08001979A3 /* PickerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSection.swift; sourceTree = "<group>"; };
-		17AEBBDA236FDC22001979A3 /* SwiftTextPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTextPicker.swift; sourceTree = "<group>"; };
-		17AEBBDD236FDC43001979A3 /* SwiftPickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPickerDelegate.swift; sourceTree = "<group>"; };
+		172B13E723714EA000456D01 /* SwiftPicker */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftPicker; path = ../SwiftPicker; sourceTree = "<group>"; };
 		2360F7B421E60FD5CA9E7A7D /* Pods-SwiftPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftPicker_Tests/Pods-SwiftPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		42FC12544C9422204951303F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		48688C7601F85F71C379F877 /* Pods_SwiftPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,29 +71,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17AEBBD2236FDB29001979A3 /* SwiftTextPicker */ = {
-			isa = PBXGroup;
-			children = (
-				17AEBBDA236FDC22001979A3 /* SwiftTextPicker.swift */,
-			);
-			path = SwiftTextPicker;
-			sourceTree = "<group>";
-		};
-		17AEBBD3236FDBB0001979A3 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				17AEBBD4236FDBF0001979A3 /* PickerResult.swift */,
-				17AEBBD7236FDC08001979A3 /* PickerSection.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				17AEBBDD236FDC43001979A3 /* SwiftPickerDelegate.swift */,
-				17AEBBD3236FDBB0001979A3 /* Models */,
-				17AEBBD2236FDB29001979A3 /* SwiftTextPicker */,
+				172B13E723714EA000456D01 /* SwiftPicker */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SwiftPicker */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -280,6 +251,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				172B13E823714EA000456D01 /* SwiftPicker in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,12 +335,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17AEBBDE236FDC43001979A3 /* SwiftPickerDelegate.swift in Sources */,
-				17AEBBDB236FDC22001979A3 /* SwiftTextPicker.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				17AEBBD8236FDC08001979A3 /* PickerSection.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				17AEBBD5236FDBF0001979A3 /* PickerResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,11 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17AEBBDC236FDC22001979A3 /* SwiftTextPicker.swift in Sources */,
-				17AEBBD6236FDBF0001979A3 /* PickerResult.swift in Sources */,
-				17AEBBDF236FDC43001979A3 /* SwiftPickerDelegate.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
-				17AEBBD9236FDC08001979A3 /* PickerSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

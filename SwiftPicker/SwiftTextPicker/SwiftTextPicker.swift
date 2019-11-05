@@ -163,11 +163,11 @@ open class SwiftTextPicker: UIButton, UIPickerViewDelegate {
 
 //MARK: - UIPickerViewDataSource
 extension SwiftTextPicker: UIPickerViewDataSource {
-    public func numberOfComponents(in pickerView: UIPickerView) -> Int {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return pickerSections.count
     }
     
-    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return (component < pickerSections.count) ? pickerSections[component].titlelist.count : 0
     }
     
